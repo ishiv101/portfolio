@@ -229,33 +229,33 @@ const Projects = () => {
   // project data - these are the main cards
   const projects = [
     {
-      title: "Project One",
-      description: "A brief description of your first project. Highlight the key features and what makes it unique.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
+      title: "LearnWithAI - AI-Powered Learning Platform",
+      description: "AI-powered learning platform that analyzes course materials and exams to generate personalized study resources. Features real-time AI processing with live progress updates, allowing students to receive generated study guides, flashcards, and practice questions seamlessly.",
+      technologies: ["Angular", "PostgrSQL", "FastAPI", "Azure OpenAI"],
       icon: comingSoon,
       detailsUrl: "/projects/project-one",
       githubUrl: socialLinks.repositories.projectOne
     },
     {
-      title: "Project Two",
-      description: "A brief description of your second project. Highlight the key features and what makes it unique.",
-      technologies: ["Python", "Flask", "PostgreSQL", "Docker"],
+      title: "LunaCycle - HackNC Project",
+      description: "Menstrual health platform that combines cycle tracking, journaling, and AI-driven wellness recommendations. Features personalized health insights based on historical cycle and diary data, helping users better understand patterns and trends over time.",
+      technologies: ["Java", "HTML/CSS", "Gemini API", "Figma"],
       icon: comingSoon,
       detailsUrl: "/projects/project-two",
       githubUrl: socialLinks.repositories.projectTwo
     },
     {
-      title: "Project Three",
-      description: "A brief description of your third project. Highlight the key features and what makes it unique.",
-      technologies: ["JavaScript", "Express", "AWS", "Tailwind CSS"],
+      title: "RAM Radar - PearlHacks Project",
+      description: "RAM Radar is a scam detection and alert system built for PearlHacks. It monitors and tracks scam events, triggering alerts when suspicious activity thresholds are crossed.",
+      technologies: ["Python", "Streamlit", "OpenCV/EasyOCR", "Pandas"],
       icon: comingSoon,
       detailsUrl: "/projects/project-three",
       githubUrl: socialLinks.repositories.projectThree
     },
     {
-      title: "Project Four",
-      description: "A brief description of your fourth project. Highlight the key features and what makes it unique.",
-      technologies: ["C++", "CMake", "OpenGL"],
+      title: "URL Shortener",
+      description: "A FastAPI learning project where you build a URL shortening service. Started with file-based storage and upgraded it to use a real database with SQLModel.",
+      technologies: ["FastAPI", "SQLModel", "Pydantic", "uv"],
       icon: comingSoon,
       detailsUrl: "/projects/project-four",
       githubUrl: socialLinks.repositories.projectFour

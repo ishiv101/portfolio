@@ -20,15 +20,18 @@ const About = () => {
 
   const roles = [
     'Software Engineer',
-    'Full-Stack Developer',
+    'AI Engineer',
     'Systems Engineer',
-    'Frontend Developer',
+    'Backend Engineer',
+    'Full-Stack Developer',
+    'Robotics Software Engineer',
+    'Data Engineer',
   ];
 
   const profileImages = [
-    { src: profile1, caption: "photo 1" },
-    { src: profile2, caption: "photo 2" },
-    { src: profile3, caption: "photo 3" }
+    { src: profile1, caption: "Presenting at the Undergraduate Research Expo" },
+    { src: profile2, caption: "Running the Tarheel Double Down Challenge" },
+    { src: profile3, caption: "On a Spring Break cabin trip" }
   ];
 
   const fullAsciiArt = `⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -213,7 +216,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row justify-between items-start max-w-6xl mx-auto gap-8">
             <div className="text-left w-full md:w-auto">
               <div className="ascii-container justify-start text-3xl md:text-4xl lg:text-5xl">
-                <AsciiMorphText text="Hi, I'm Your Name" />
+                <AsciiMorphText text="Hi, I'm Ishi Varshney" />
               </div>
               <div className="hero-subtitle justify-start text-base md:text-lg lg:text-xl mt-2">
                 <div className="flex flex-wrap items-center justify-start">
@@ -225,7 +228,7 @@ const About = () => {
                 <button
                   className="hero-action-btn text-sm md:text-base px-4 py-2 md:px-5 md:py-2.5"
                   onClick={() => {
-                    window.open('/resume.pdf', '_blank');
+                    window.open(`${import.meta.env.BASE_URL}resume.pdf`, '_blank');
                   }}
                 >
                   Resume →
